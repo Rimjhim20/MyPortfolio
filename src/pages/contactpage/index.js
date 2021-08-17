@@ -4,7 +4,7 @@ import tw from "twin.macro";
 import EnvelopeGif from "../../assets/envelope.gif";
 const ContactPageContainer = styled.div`
   ${tw`
-  
+  bg-dark-blue
   flex
   w-full
   h-full

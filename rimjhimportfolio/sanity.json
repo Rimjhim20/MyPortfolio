@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "portfolio-training-testing"
+    "name": "rimjhim-portfolio"
   },
   "api": {
-    "projectId": "6svi0b8c",
+    "projectId": "qehg584m",
     "dataset": "production"
   },
   "plugins": [

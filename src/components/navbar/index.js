@@ -41,6 +41,9 @@ export const NavBar = () => {
         <NavLink to="/contact">
           <NavLinkComponent>Contact me</NavLinkComponent>
         </NavLink>
+        <NavLink to="/project">
+          <NavLinkComponent>Project</NavLinkComponent>
+        </NavLink>
       </NavContainer>
     </>
   );

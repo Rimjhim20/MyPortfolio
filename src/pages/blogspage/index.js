@@ -5,7 +5,7 @@ import sanityClient from "../../client";
 import { BlogCard } from "../../components/blogcard";
 
 const BlogsContainer = styled.div`
-  max-height: 88vh;
+  max-height: 150vh;
   ${tw`
 
 mt-10

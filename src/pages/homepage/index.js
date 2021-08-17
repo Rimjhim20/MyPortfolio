@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import PhotoPic from "../../assets/photo.jpeg";
+import PhotoPic from "../../assets/abcd.png";
 import SocialData from "../../components/social/socialData";
 import SocialImage from "../../components/social/SocialImage";
 const HomeContainer = styled.div`
@@ -31,22 +31,24 @@ ml-48
 
 const BigText = styled.h1`
   ${tw`
-text-white
+text-black
 text-8xl
 `};
 `;
 
 const MiddleText = styled.h1`
   ${tw`
-text-middle-text
+  text-indigo-800
 text-4xl
+font-bold
 `};
 `;
 const Button = styled.button`
-  border: 2px solid #0fd1fc;
-  border-radius: 8px;
+  border: 4px solid white;
+  border-radius: 12px;
   ${tw`
-text-white
+text-black
+font-bold
 w-32
 text-xl
 mt-10
@@ -82,7 +84,7 @@ const HomePage = () => {
       <HomeContainer>
         <HomeContainerLeft>
           <IntroContainer>
-            <BigText>I AM DAVID</BigText>
+            <BigText>Hey!! I AM Rimjhim</BigText>
             <BigText>WELCOME TO MY PORTFOLIO</BigText>
             <MiddleText>I am a design thinker and a web developer.</MiddleText>
             <Button>Know more</Button>

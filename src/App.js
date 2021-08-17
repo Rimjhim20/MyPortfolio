@@ -7,9 +7,10 @@ import Aboutpage from "./pages/aboutpage";
 import Blogs from "./pages/blogspage";
 import { SingleBlog } from "./components/singleblog";
 import ContactPage from "./pages/contactpage";
+import Project from "./pages/projectpage";
 const AppContainer = styled.div`
   ${tw`
-  bg-dark-blue
+  bg-pink-700
       w-full
       h-full
       flex
@@ -40,6 +41,10 @@ function App() {
         <Route path="/contact">
           <NavBar />
           <ContactPage />
+        </Route>
+        <Route path="/project">
+          <NavBar />
+          <Project />
         </Route>
       </Router>
     </AppContainer>
