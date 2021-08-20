@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import styled from "styled-components";
 import tw from "twin.macro";
-import LogoImage from "../../assets/logo.svg";
+import LogoImage from "../../assets/logo.png";
 const NavContainer = styled.div`
   ${tw`
  
@@ -15,7 +15,12 @@ const NavContainer = styled.div`
 `};
 `;
 
-const Logo = styled.img``;
+const Logo = styled.img`
+${tw`
+w-24
+h-24
+`};
+`;
 
 const NavLinkComponent = styled.h3`
   ${tw`
