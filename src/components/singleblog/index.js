@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import tw from "twin.macro";
+import audio from "../../assets/sound.wav"
 import sanityClient from "../../client";
 import BlockContent from "@sanity/block-content-to-react";
 import DotLoader from "react-spinners/DotLoader";
@@ -167,9 +168,9 @@ export const SingleBlog = () => {
         <DotLoader color="#3FC2CA" />
       </Loader>
     );
-
+    const music = new Audio(audio);
   return (
-    <SingleBlogContainer>
+    <SingleBlogContainer onClick={music.play()}>
       <SingleBlogComponent>
         <SingleBlogHeader>
           <SingleBlogHeaderImage src={singleBlog.mainImage.asset.url} />
