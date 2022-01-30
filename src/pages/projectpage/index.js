@@ -4,6 +4,7 @@ import pic1 from '../../assets/p2.PNG'
 import pic2 from '../../assets/p3.PNG'
 import pic3 from '../../assets/p4.PNG'
 import pic4 from '../../assets/m1.PNG'
+import pic5 from '../../assets/fl.png'
 const Project = () => {
     return (
         <>
@@ -25,6 +26,10 @@ const Project = () => {
         </div>
         <div class="container h-44 w-96 border-4 ml-12 rounded-lg  border-purple-900">
             <img src= {pic4} alt="projectpic"/>
+        </div>
+
+        <div class="container h-44 w-96 border-4 ml-12 rounded-lg  border-purple-900">
+            <img src= {pic5} alt="projectpic"/>
         </div>
         </div>
         </>
