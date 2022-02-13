@@ -70,9 +70,9 @@ const SingleBlogTitleContainer = styled.h1`
   text-4xl
 z-10
 bg-gray-200
-w-1/2
-h-1/2
-top-16
+w-2/3
+h-2/3
+top-4
 left-1/4
 opacity-80
 rounded-md
@@ -81,7 +81,7 @@ rounded-md
 const SingleBlogHeaderTitle = styled.h1`
   ${tw`
   text-5xl
-  mb-5
+  mb-2
   `}
 `;
 const SingleBlogAuthorDataContainer = styled.div`
