@@ -5,17 +5,17 @@ import LinkedIn from "../../assets/linkedin.svg";
 const SocialData = [
   {
     name: "Github",
-    src: "https://github.com/",
+    src: "https://github.com/Rimjhim20",
     logo: Github,
   },
   {
     name: "Instagram",
-    src: "https://instagram.com/",
+    src: "https://www.instagram.com/rimjhim_5/",
     logo: Insta,
   },
   {
     name: "LinkedIn",
-    src: "https://linkedin.com/",
+    src: "https://www.linkedin.com/in/rimjhim-kumari-r20/",
     logo: LinkedIn,
   },
 ];
