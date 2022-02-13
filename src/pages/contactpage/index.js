@@ -76,7 +76,7 @@ const ContactPage = () => {
   const [message, setMessage] = useState("");
   const sendMail = () => {
     if (name && subject && message) {
-      window.location.href = `mailto:anishprashun27@gmail.com?subject=${subject}&body=Hello david, I am ${name}%0d%0d${message}`;
+      window.location.href = `mailto:kumaririmjhim720@gmail.com?subject=${subject}&body= Hello Rimjhim, I am ${name}%0d%0d${message}`;
     } else {
       alert("Please Fill all the fields");
     }
