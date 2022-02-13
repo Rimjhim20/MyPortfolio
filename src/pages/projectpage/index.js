@@ -9,6 +9,7 @@ import pic6 from '../../assets/ss.png'
 import pic7 from '../../assets/tindog.png'
 import pic8 from '../../assets/3.PNG'
 import pic9 from '../../assets/net.png'
+import pic10 from '../../assets/clock web.png'
 const Project = () => {
     return (
         <>
@@ -53,6 +54,9 @@ const Project = () => {
     <div class=" flex flex-row pb-8">
         <div class="container h-48 w-96 ml-24 rounded-lg  border-purple-900 " >
             <img src= {pic9} alt="projectpic"/>
+        </div>
+        <div class="container h-48 w-96 ml-24 rounded-lg  border-purple-900 " >
+            <img src= {pic10} alt="projectpic"/>
         </div>
         </div>
         </>
