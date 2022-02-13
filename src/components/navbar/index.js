@@ -42,13 +42,13 @@ export const NavBar = () => {
           <NavLinkComponent onClick={music.play()}>Blogs</NavLinkComponent>
         </NavLink>
         <NavLink to="/about">
-          <NavLinkComponent onClick={music.play()}>About</NavLinkComponent>
+          <NavLinkComponent onClick={music.play()}>About us</NavLinkComponent>
         </NavLink>
         <NavLink to="/contact">
           <NavLinkComponent onClick={music.play()}>Contact me</NavLinkComponent>
         </NavLink>
         <NavLink to="/project">
-          <NavLinkComponent onClick={music.play()}>Project</NavLinkComponent>
+          <NavLinkComponent onClick={music.play()}>Projects</NavLinkComponent>
         </NavLink>
       </NavContainer>
     </>

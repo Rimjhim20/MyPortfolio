@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
@@ -87,7 +88,11 @@ const HomePage = () => {
             <BigText>Hey!! I AM Rimjhim</BigText>
             <BigText>WELCOME TO MY PORTFOLIO</BigText>
             <MiddleText>I am a design thinker and a web developer.</MiddleText>
-            <Button>Know more</Button>
+            <form action="/about">
+
+            
+            <Button >Know more</Button>
+            </form>
           </IntroContainer>
         </HomeContainerLeft>
         <HomeContainerRight>
